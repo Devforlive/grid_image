@@ -11,7 +11,7 @@ h1 {
   margin-top: 30px;
   text-align: center;
 }
-.grid {
+.container {
     display: flex;  /* ---    Внутренние div-ы выстраиваются в ряд (вдоль главной оси)    ---*/
     box-sizing: border-box; /* ---    позволяет значения padding и border вычитать из ширины и длины блока    --- */
     width: 1200px;
