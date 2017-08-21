@@ -1,0 +1,85 @@
+* {
+    margin: 0; /* определяет расстояние вокруг элемента */
+    padding: 0; /* определяет расстояние между границей элемента и его содержимым */
+}
+
+body {
+    font: 'Lato', Arial, sans-serif;
+    background: #ffffff;
+}
+h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+.grid {
+    display: flex;  /* ---    Внутренние div-ы выстраиваются в ряд (вдоль главной оси)    ---*/
+    box-sizing: border-box; /* ---    позволяет значения padding и border вычитать из ширины и длины блока    --- */
+    width: 1200px;
+    height: 900px;
+    margin: 50px auto;
+    border-left: 10px solid #fff;
+    background: #fff;
+    flex-wrap: wrap;  /* -----    задает многострочную расстановку блоков по главной оси ----------*/
+}
+.block4, .row-2-1, .row-2-2 {
+    display: flex;  /* ---    Внутренние div-ы выстраиваются в ряд (вдоль главной оси)    ---*/
+    flex-wrap: wrap;  /* -----    задает многострочную расстановку блоков по главной оси ----------*/
+}
+.block1, .block2, .block3, .block4, .block5, .block6,
+.block7, .block8, .block9, .block10, .block11 {
+    margin: 10px;
+}
+.block9 {
+    width: 15%;
+}
+.box {
+    box-sizing: border-box;   /* ---    позволяет значения padding и border вычитать из ширины и длины блока    --- */
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.item-1-6 {
+    width: 31%;
+}
+.row-1 {
+    height: 150px;
+}
+.item-1-6:not(:last-child) {
+    margin-right: 20px;
+}
+.item-1-6 {
+    margin-bottom: 20px;
+}
+.item-1-4:not(:last-child) {
+    margin-right: 20px;
+}
+.item-1-4 {
+    width: 48.2%;
+}
+.col-1-2 {
+    width: 48%;
+}
+.col-1-3 {
+    width: 31.7%;
+}
+.col-1-6 {
+    width: 14.7%;
+}
+.row-2 {
+    height: 320px;
+}
+.row-2-1 {
+    width: 100%;
+    height: 165px;
+}
+.row-2-2 {
+    width: 100%;
+    height: 155px;
+}
+.row-3 {
+    height: 195px;
+}
+.row-4 {
+    height: 135px;
+}
